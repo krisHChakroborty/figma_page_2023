@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    /* border: 1px solid red; */
 }
 body{
     margin:0px;
@@ -194,7 +195,9 @@ h6{
     background-image:url(images/bg-techno.jpg);
     background-repeat: no-repeat;
     margin-bottom: 100px;
-    height: 1572px;
+    background-position: center top;
+  
+
 }
 
 
@@ -441,6 +444,7 @@ textarea{
     width: 100%;
     /* height: 800px; */
     background-repeat: no-repeat;
+    background-position: center top;
    
 
 }
@@ -488,6 +492,11 @@ textarea{
 
 .text{
     font-size: 10px;
+}
+
+.navbar-toggler{
+    background-color: white !important;
+    outline: none !important;
 }
 
 
@@ -547,7 +556,7 @@ textarea{
       margin-bottom:20px;
     }
     .techno-card{
-        margin-bottom:20px;
+        margin-bottom: -186px;
         margin-top: 228px;
     }
     .paragraph {
@@ -557,33 +566,177 @@ textarea{
         padding: 40px 0px 20px;
         margin: 0px;
     }
+
+    
    
   } 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* social media icons */
+@media  (min-width:988px){
+    .social2{
+        display: none;
+    }
+}
+
+@media  (max-width:988px){
+    .social2{
+       display: flex;
+      
+    }
+}
+
+
+@media  (max-width:988px){
+    .social{
+     display: none;
+      
+    }
+
   
+}
+/* social media icons */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:992px){
+    .data{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .address1{
+        display: block;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 60px;
+    }
+
+    .address2{
+        display: block;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .address3{
+        display: block;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .technology-bg {
+        background-image: url(images/bg-techno.jpg);
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+        height: 2000px;
+    }
+}
+
+
+
+
+
+@media  (min-width:768px){
+    .data{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .address1{
+       
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        margin-left: 60px;
+    }
+
+    .address2{
+       
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .address3{
+        display: block;
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* @media  (max-width:992px){
+
+    .container {
+        margin:0 auto;
+        max-width:1240px;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+    }
+
+} */
    
   
 
-  /* @media screen and (min-width: 480px) {
-    .technology-bg{
-        background-image: url(images/bg-techno.jpg);
-        background-repeat: no-repeat;
-        margin-bottom: -37px;
-        height: 5946px;
-        background-size: cover;
-    }
-  } */
+/* @media  (min-width:992px){
 
-  /* @media screen and (max-width: 480px) {
-    .technology-bg{
-        background-image: url(images/bg-techno.jpg);
-        background-repeat: no-repeat;
-        margin-bottom: -37px;
-        height: 1500px;
-        background-size: cover;
+    .data{
+        display: inline;
     }
-  } */
- 
+
+    .address1{
+        display: inline;
+    }
+
+    .address2{
+       
+        display: inline;
+    }
+
+    .address3{
+        display: inline;
+       
+    }
+
+
+} */
