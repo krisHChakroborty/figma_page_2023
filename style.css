@@ -531,7 +531,10 @@ textarea{
         margin-bottom:0px;
     }
     .services{
-        margin-top:50px;
+        margin-top: 50px;
+        position: relative;
+        top: 138px;
+        color: white;
     }
     .card_main-2{
        margin-top:0px;
@@ -545,6 +548,7 @@ textarea{
     }
     .techno-card{
         margin-bottom:20px;
+        margin-top: 228px;
     }
     .paragraph {
         padding-bottom:0px;
@@ -559,11 +563,27 @@ textarea{
 
 
 
-  @media(max-width:770px){
-.address{
-    text-align: center;
-}
-  }
+  
+   
+  
 
+  /* @media screen and (min-width: 480px) {
+    .technology-bg{
+        background-image: url(images/bg-techno.jpg);
+        background-repeat: no-repeat;
+        margin-bottom: -37px;
+        height: 5946px;
+        background-size: cover;
+    }
+  } */
 
+  /* @media screen and (max-width: 480px) {
+    .technology-bg{
+        background-image: url(images/bg-techno.jpg);
+        background-repeat: no-repeat;
+        margin-bottom: -37px;
+        height: 1500px;
+        background-size: cover;
+    }
+  } */
  
