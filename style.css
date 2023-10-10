@@ -666,33 +666,23 @@ textarea{
 
 
 
-@media  (min-width:768px){
+@media  (max-width:768px){
     .data{
-        display: flex;
-        justify-content: center;
-        width: 40%;
+       display: none;
     }
 
     .address1{
        
-        display: flex;
-        justify-content: center;
-        width: 40%;
-        margin-left: 60px;
+        display: none;
     }
 
     .address2{
        
-        display: flex;
-        justify-content: center;
-        width: 40%;
+        display: none;
     }
 
     .address3{
-        display: block;
-        display: flex;
-        justify-content: center;
-        width: 40%;
+        display: none;
     }
 }
 
@@ -718,25 +708,25 @@ textarea{
    
   
 
-/* @media  (min-width:992px){
+@media  (min-width:992px){
 
     .data{
-        display: inline;
+        display: flex;
     }
 
     .address1{
-        display: inline;
+        display: flex;
     }
 
     .address2{
        
-        display: inline;
+        display: flex;
     }
 
     .address3{
-        display: inline;
+        display: flex;
        
     }
 
 
-} */
+}
