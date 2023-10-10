@@ -321,6 +321,7 @@ textarea{
     background-image: url(images/footer-img.jpg);
     background-repeat: no-repeat;
     margin-top:100px;
+    background-position: center center;
 }
 .paragraph{
     padding-bottom: 77px;
@@ -497,7 +498,21 @@ textarea{
 .navbar-toggler{
     background-color: white !important;
     outline: none !important;
+    
 }
+
+
+
+
+/* <!-- Technology we use start--> */
+.border1{
+    border: 1px solid rgb(218, 216, 216);
+    padding: 10px;
+    background-color: white;
+}
+
+
+/* <!-- Technology we use start--> */
 
 
 
@@ -540,9 +555,9 @@ textarea{
         margin-bottom:0px;
     }
     .services{
-        margin-top: 50px;
+        margin-top: 145px;
         position: relative;
-        top: 138px;
+      
         color: white;
     }
     .card_main-2{
@@ -727,6 +742,26 @@ textarea{
        
     }
   
+
+
+}
+
+
+
+@media  (max-width:994px){
+
+.technology-bg{
+    background-color: #062692;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    background-position: center top;
+    height: max-content;
+   position: relative;
+   bottom: 30px;
+}
+
+
+
 
 
 }
