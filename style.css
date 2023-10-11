@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+   
 
     /* border: 1px solid red; */
 }
@@ -13,6 +14,7 @@ body{
     margin:0px;
     padding:0px;
     font-family: 'Montserrat', sans-serif;
+   
     
 }
 h2{
@@ -530,15 +532,18 @@ textarea{
 
 .img1{
     background-image: url("images/hero-img.jpg");
+    /* background: rgba(0,0,0,0.5) url("images/hero-img.jpg");
+    background-blend-mode: darken; */
 }
 
 .img2{
-    background-image: url("images/hero-img.jpg");
+    background-image: url("images/header1.png");
 }
 
 .img3{
-    background-image: url("images/hero-img.jpg");
+    background-image: url("images/header2.png");
 }
+
 
 .size
 {
@@ -619,8 +624,8 @@ input[type=text], select, textarea {
 
 
 .owl-carousel .owl-item img {
-    display: inline;
-    /* width: 50%; */
+    display: inline !important;
+    width: 40% !important;
 }
 
 
