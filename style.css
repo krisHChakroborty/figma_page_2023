@@ -599,10 +599,23 @@ input[type=text], select, textarea {
 
 
 
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -233px !important;
+}
+
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+}
 
 
 
 
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 
 
