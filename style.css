@@ -530,18 +530,33 @@ textarea{
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* ===================================carousal images==================================== */
 .img1{
     background-image: url("images/hero-img.jpg");
-    /* background: rgba(0,0,0,0.5) url("images/hero-img.jpg");
-    background-blend-mode: darken; */
+  
 }
 
 .img2{
-    background-image: url("images/header1.png");
+    /* background-image: url("images/header1.png"); */
+    background: rgba(0,0,0,0.7) url("images/header1.png");
+    background-blend-mode: darken;
 }
 
 .img3{
-    background-image: url("images/header2.png");
+   
+    background: rgba(0,0,0,0.6) url("images/header2.png");
+    background-blend-mode: darken;
+
 }
 
 
@@ -552,6 +567,20 @@ textarea{
     background-size: cover;
     background-position: center;
 }
+/* ===================================carousal images==================================== */
+
+/* .carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+} */
+
+
+
+
+
 
 
 .row>* {
