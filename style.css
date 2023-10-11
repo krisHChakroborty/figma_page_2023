@@ -559,12 +559,42 @@ textarea{
 }
 
 
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important;
+    margin-left: 24px !important;
+}
 
 
 
 
+/* ---------------------form -----------------------*/
+input[type=text], select, textarea {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 41px;
+    outline: none;
+    resize: vertical;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #212529;
+}
+/* ---------------------form -----------------------*/
 
 
+
+.btn {
+    --bs-btn-padding-x: 18px !important;
+    --bs-btn-padding-y: 10px !important;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: 6px !important;
+    padding: 28px;
+}
 
 
 
