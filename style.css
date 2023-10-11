@@ -618,6 +618,12 @@ input[type=text], select, textarea {
 }
 
 
+.owl-carousel .owl-item img {
+    display: inline;
+    /* width: 50%; */
+}
+
+
 
 
 
