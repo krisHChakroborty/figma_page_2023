@@ -676,6 +676,22 @@ input[type=text], select, textarea {
 
 
 
+.carousel-indicators{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    display: block;
+    list-style-type: circle;
+}
+
+
+
+
+
+
+
+
+
 
 
 
