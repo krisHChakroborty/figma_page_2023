@@ -943,12 +943,12 @@ input[type=text], select, textarea {
 }
 
 
-@media  (min-width:994px){
+/* @media  (min-width:994px){
     .link2{
         display: none;
     }
 
-}
+} */
 
 @media  (max-width:982px){
    .technology_gap{
